@@ -1,0 +1,283 @@
+body {
+	font-family: 'Inter';
+	margin: 0;
+	padding: 0;
+	width: 1440px;
+}
+
+header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+width: 1280px;
+height: 80px;
+}
+
+.container_header {
+	display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 32px;
+width: 1280px;
+height: 44px;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+padding: 0px;
+gap: 40px;
+width: 362px;
+height: 32px;
+list-style-type: none;
+text-decoration: none;
+align-items: center;
+}
+
+li a {
+	text-decoration: none;
+    color: #667085;
+}
+
+.logo_white {
+	width: 190px;
+}
+
+.botao {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+width: 207px;
+height: 44px;
+}
+
+.botao_primario {
+	background: #FFFFFF;
+	border-style: none;
+}
+
+.botao_secundario {
+	background: #8E2424;
+	padding: 8px;
+	border-radius: 6px;
+	color: #FFFFFF;
+	border-style: none;
+}
+
+.cabecalho {
+	width: 1280px;
+	text-align: center;
+	padding: 10px;
+}
+
+.cabecalho_subtitulo {
+	color: #8E2424;
+}
+
+.cabecalho_titulo {
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 60px;
+	/* identical to box height, or 125% */
+	letter-spacing: -0.02em;
+}
+
+.cabecalho p {
+	color: #667085;
+}
+
+.paragrafos {
+	height: 288px;
+	display: flex;
+	margin-left: 20px auto;
+}
+
+.caixa_p {
+	margin: auto 0 auto auto;
+ 	height: 192px;
+ 	width: 280px;
+}
+
+.paragrafo_ig {
+	display: flex; 
+	font-weight: 600;
+	font-size: 45px;
+    color: #8E2424;
+
+}
+
+.paragrafo_sec {
+ 	padding: 0px;
+}
+
+.paragrafo_ter {
+	color: #667085;
+	margin-bottom: 40px;
+}
+
+.mini-header--vagas {
+	text-align: center;
+
+}
+
+.mini-header--h6 {
+	color: #8E2424;
+	background: rgba(142, 36, 36, 0.05);
+	border-radius: 16px;
+	width: 101px;
+	margin: 200px auto 0;
+}
+
+.mini-header--h4 {
+	color: #667085;
+}
+
+.img-vagas {
+	margin-left: 40px;
+}
+
+.area-vagas--geral {
+	margin-left: 336px;
+}
+
+.area-title--design {
+	margin-top: 80px;
+	margin-bottom: 40px;
+
+}
+
+.area-product--design, .area-ux--design, .area-dev--ios, .area-dev--frontend, .area-dev--backend {
+	border: 1px solid #EAECF0;
+	border-radius: 16px;
+	width: 768px;
+}
+
+.area-product--design, .area-ux--design, .area-dev--ios, .area-dev--frontend, .area-dev--backend {
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.area-dev--design---p, .area-dev--ios---title, .area-dev--uxdesign---title, .area-dev--front---title, .area-dev--back---title {
+	font-size: 18px;
+}
+
+.area-p--design, .area-p--uxdesign, .area-p--ios, .area-p--front, .area-p--back {
+	display: flex;
+	grid-gap: 20px;
+	 color: #667085;
+}
+
+.area-ux--design {
+	margin-bottom: 80px;
+}
+
+.area-title--software {
+	margin-bottom: 40px;
+}
+
+/* Área Biografia */
+
+.area-sobre--biografia {
+	margin-left: 60px;
+	width: 1216px;
+	height: 404px;
+}
+
+.area-container--biografia {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background: rgba(196, 25, 25, 0.03);
+
+}
+
+.area-title--p {
+	font-weight: 600;
+	font-size: 14px;
+	color: #8E2424;
+	margin-top: 50px;
+	height: 5px;
+}
+
+.area-title--h1 {
+	text-align: center;
+	margin-left: 40px;
+}
+
+.area-p--biografia {
+	line-height: 10px;
+}
+
+.area-pdev--biografia {
+	color: #667085;
+	font-weight: 400;
+	line-height: 1%;
+	font-size: 14px;
+	margin-bottom: 70px;
+}
+
+/* Rodapé */
+
+.rodape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #F9FAFB;
+	width: 1349px;
+	height: 430px;
+	margin-top: 60px;
+}
+
+.paragrafo-rodape {
+	text-align: center;
+	color: #667085;
+	margin-bottom: 40px;
+}
+
+.form {
+	text-align: center;
+	}
+
+.input {
+	padding: 8px;
+	width: 240px;
+	border: 1px solid #D0D5DD;
+	border-radius: 8px;
+	margin: 10px;
+}
+
+.butao-rodape {
+	padding: 10px;	
+	background: #8E2424;
+	color: #FFFFFF;
+	border: 1px solid #D0D5DD;
+	border-radius: 8px;
+	}
+
+.paragrafo-final {
+	color: #98A2B3;
+	text-align: center;
+	font-size: 12px;
+	margin: 20px;
+}
+
+
+/* Responsive Screen */
+
+@media(max-width: 1420px) {
+    body, .container_header, header, .mini-header--all, .paragrafos {
+    	width: 1316px;
+    }
+
+	.logo_header {
+		padding: 60px;
+	}
+
+}
